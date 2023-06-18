@@ -1,0 +1,182 @@
+{
+  "header": {
+    "about": "About us",
+    "vision": "Vision",
+    "audience": "Audience",
+    "platform": "Platform",
+    "pricing": "Pricing"
+  },
+  "footer": {
+    "headline": {
+      "project": "Project:",
+      "contact": "Contact:"
+    },
+    "technology": "Technology",
+    "release.notes": "Release Notes",
+    "github": "GitHub",
+    "team": "Team",
+    "twitter": "Twitter",
+    "contact": "Contact",
+    "imprint": "Imprint"
+  },
+  "home": {
+    "headline": {
+      "slogan": "Vision: “Bringing Transparency into Cyber Security”",
+      "purpose": "Advanced Analysis for Executable Files"
+    },
+    "topic": {
+      "problem.title": "Problem:",
+      "solution.title": "Solution:",
+      "1": {
+        "problem": "Unclear large amount of various executable file analysis tools out there",
+        "solution": "Holistic Reverse Engineering security expert platform for executable file formats"
+      },
+      "2": {
+        "problem": "Limited technical detailed access to the executable file's internals by the tools",
+        "solution": "Customizable easy to use detail analysis"
+      },
+      "3": {
+        "problem": "Retained expertise about internals",
+        "solution": "Knowledge exchange between security experts and beginners"
+      }
+    },
+    "benefits": {
+      "headline": "Features and Benefits",
+      "1": "1 tool at 1 location for all analysis tasks",
+      "2": "Automatic static analysis",
+      "3": "Revealing of anomalies",
+      "4": "Hardening suggestions for minimization of vulnerability exploitation risks",
+      "5": "Full access to the executable's internals via custom scripts",
+      "6": "Comprehensible graphical visualizations of structural internals of the executables",
+      "7": "Machine learning-based anomaly scoring for detection of malicious purposes",
+      "8": "Embedded documentation for technical internals",
+      "9": "Rapid knowledge sharing and collaboration with experts community",
+      "platform.button.text": "Visit Platform now!"
+    },
+    "vision": {
+      "headline": "Vision: Bringing Transparency into Cyber Security",
+      "statements": {
+        "1": "Unveiling the Veil: Empowering Cyber Security with Transparency",
+        "2": "Unify expertise on Malware characteristics and analysis approaches, fostering a community of ongoing experts to accelerate knowledge building",
+        "3": "One central all-in-one tool",
+        "4": "Fast knowledge building through security expert community"
+      }
+    },
+    "audience": {
+      "headline": "Audience",
+      "1": {
+        "target.group": "Gain for Malware Analysts:",
+        "gain": "Fast information discovery"
+      },
+      "2": {
+        "target.group": "Gain for Malware Forensics:",
+        "gain": "Easy access to deep details"
+      },
+      "3": {
+        "target.group": "Gain for Anti-malware Industry:",
+        "gain": "User-defined evaluation of arbitrary detail structures in executable files"
+      },
+      "4": {
+        "target.group": "Gain for Software Industry:",
+        "gain": "Hardening the executables to mitigate potential vulnerability exploitation"
+      },
+      "5": {
+        "target.group": "Gain for White Hat Hackers:",
+        "gains": {
+          "1": "Espionage detection,",
+          "2": "evaluation of unknown executable files"
+        }
+      },
+      "6": {
+        "target.group": "Gain for Students:",
+        "gains": {
+          "1": "Clear presentation of internal structures,",
+          "2": "direct access to professional knowledge,",
+          "3": "fast subject area development"
+        }
+      },
+      "7": {
+        "target.group": "Gain for Software Users:",
+        "gain": "Automatically scan and score downloads of executable files via Browser Plugin"
+      }
+    },
+    "impacts": {
+      "headline": "What we do",
+      "1": "Central web platform and community for Executable File format analysis - All required tools are included",
+      "2": "Full access to all internal technical structures via comfortable script languages (JavaScript, TypeScript)",
+      "3": "Access to internal, possibly hidden information that makes statements about maliciousness",
+      "4": "Experts exchange ideas and learn from each other",
+      "5": "Anti-malware industry benefits from collected intelligence to detect even 0‑day threats",
+      "6": "Leverage collected information for Deep Learning",
+      "7": "Software industry uses information to harden its programs against exploits"
+    },
+    "pricing": {
+      "headline": "Pricing",
+      "titles": {
+        "basic": "Basic:",
+        "pro": "Pro:",
+        "planned": "Planned for future"
+      },
+      "subscriptions": {
+        "title": "Subscription",
+        "free": "$0",
+        "pro": "Contact Us"
+      },
+      "features": {
+        "1": "File upload and static analysis",
+        "2": "Private uploads",
+        "3": "Download executables",
+        "4": "Edit executables",
+        "5": "Inspect detected anomaly insights",
+        "6": "Inspect detected hardening suggestions",
+        "7": "Custom scripts",
+        "8": "More quota for API access by custom scripts",
+        "9": "AI-based analysis assistance",
+        "10": "Browser plugin for scanning downloads"
+      }
+    }
+  },
+  "captcha": {
+    "puzzle.text": "What is the sum of {{num1}} and {{num2}}?"
+  },
+  "contact": {
+    "introduction": "Embark on a journey with us. Our contact form stands ready, anticipating your message. Whether you're a visionary collaborator or an aspiring customer, this is your chance to ignite the spark of possibility. Reach out today and let's explore the endless opportunities that await us. Together, we can achieve greatness. Start the conversation now!",
+    "input.fields": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Message",
+      "send.button.text": "Send"
+    }
+  },
+  "stakeholders": {
+    "headline": "Stakeholders and Technology Stack",
+    "introduction": "Discover the power of our cutting-edge static binary analysis platform, empowering experts across diverse domains with advanced backend modules for limitless possibilities:",
+    "lifecycle.headline": "Software Development Lifecycle",
+    "lifecycle": "Improve your software development experience! Seamlessly integrate the platform into your software development lifecycle, empower reverse engineering analysis, and continuous improvement to safeguard software users from an array of hazards in the digital realm."
+  },
+  "team": {
+    "headline": "The Team",
+    "introduction": {
+      "1": "Unleash the Power of Minds: Join the League of Codebreakers, Defenders, and Innovators! Our reliable team based in Northern and Southern Germany (Rostock, Cologne and Nuremberg).",
+      "2": "TRANScurity is built by Security Experts, Software Engineers, Entrepreneurs and Scientists:"
+    },
+    "members": {
+      "paxi": {
+        "1": "Original co-founder since the very first hour",
+        "2": "Expert in back-end development and open-source projects",
+        "3": "Analyst for Portable Executable files",
+        "4": "Bachelor of Science in Applied Computer Science, head of programming"
+      },
+      "albi": {
+        "1": "Building the neuronal network for preemptive malware identification",
+        "2": "Master in Computer Science"
+      },
+      "diddy": {
+        "1": "Broad technology knowledge",
+        "2": "Expert in full-stack development",
+        "3": "Certified software architect",
+        "4": "Bachelor of Science in General Computer Science"
+      }
+    }
+  }
+}

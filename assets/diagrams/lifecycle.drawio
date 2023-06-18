@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-06-17T11:41:07.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="ZcJc2Z72czmgmGRs1OPJ" version="21.3.5" type="device">
+  <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="40" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-1" value="&lt;div style=&quot;font-size: 19px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp; Programming&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp; Language&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp; (Source Code)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontColor=#333333;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-10">
+          <mxGeometry width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-10">
+          <mxGeometry x="263.75757575757575" y="10" width="35.59" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1024px-Microsoft_.NET_logo.svg.png;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-10">
+          <mxGeometry x="337.939393939394" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-4" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(37, 52, 76); font-size: 16px;&quot;&gt;ASM&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#25344C;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-10">
+          <mxGeometry x="418.71515151515155" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-6" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000040;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.lcd_monitor;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-10">
+          <mxGeometry x="180" y="40" width="32.73" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="240" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-8" value="&lt;div style=&quot;font-size: 19px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp; Machine Code&lt;br&gt;&amp;nbsp; (Executable File)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontColor=#333333;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-11">
+          <mxGeometry width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/mimetypes/binary.png" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-11">
+          <mxGeometry x="290" y="11" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-30" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;TRANScurity&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Platform&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="686" y="129.7" width="174" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="150" width="151" height="64.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-24" value="&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;Compiler&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-32">
+          <mxGeometry x="91" y="17.19999999999999" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-27" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#000040;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.gear_load" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-32">
+          <mxGeometry width="70" height="64.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="893" y="80" width="197" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-29" value="&lt;div align=&quot;left&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#000040&quot;&gt;Reverse&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#000040&quot;&gt;Engineering&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#000040&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#000040&quot;&gt;Binary Code Analysis&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-33">
+          <mxGeometry x="13" y="100" width="184" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-31" value="" style="endArrow=classic;html=1;strokeWidth=12;strokeColor=#000040;rounded=0;" edge="1" parent="qO3pvRLyQRiqLPLXNdOg-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="210" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="286.5" y="80" width="73.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-23" value="" style="endArrow=classic;html=1;strokeWidth=12;strokeColor=#000040;rounded=0;" edge="1" parent="qO3pvRLyQRiqLPLXNdOg-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="73.5" as="sourcePoint" />
+            <mxPoint x="73.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO3pvRLyQRiqLPLXNdOg-13" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;Software&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;Development&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot; color=&quot;#000040&quot;&gt;Sequence&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qO3pvRLyQRiqLPLXNdOg-34">
+          <mxGeometry y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

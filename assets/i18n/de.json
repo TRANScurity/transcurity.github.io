@@ -1,0 +1,182 @@
+{
+  "header": {
+    "about": "Über uns",
+    "vision": "Vision",
+    "audience": "Zielgruppe",
+    "platform": "Plattform",
+    "pricing": "Preise"
+  },
+  "footer": {
+    "headline": {
+      "project": "Projekt:",
+      "contact": "Kontakt:"
+    },
+    "technology": "Technologie",
+    "release.notes": "Versionshinweise",
+    "github": "GitHub",
+    "team": "Team",
+    "twitter": "Twitter",
+    "contact": "Kontakt",
+    "imprint": "Impressum"
+  },
+  "home": {
+    "headline": {
+      "slogan": "Vision: “Transparenz in die Cybersicherheit bringen”",
+      "purpose": "Fortgeschrittene Analyse für ausführbare Dateien"
+    },
+    "topic": {
+      "problem.title": "Problem:",
+      "solution.title": "Lösung:",
+      "1": {
+        "problem": "Unüberschaubar große Anzahl verschiedener Tools zur Analyse ausführbarer Dateien",
+        "solution": "Ganzheitliche Reverse Engineering-Expertenplattform für ausführbare Dateiformate"
+      },
+      "2": {
+        "problem": "Begrenzter technischer Detailzugang zu den Interna ausführbarer Dateien durch die Tools",
+        "solution": "Individualisierbare, leicht zu bedienende Detailanalyse"
+      },
+      "3": {
+        "problem": "Schwer zugängliches Wissen über Interna",
+        "solution": "Wissensaustausch zwischen Sicherheitsexperten und Einsteigern"
+      }
+    },
+    "benefits": {
+      "headline": "Merkmale und Vorteile",
+      "1": "1 Werkzeug an 1 Ort für alle Analyseaufgaben",
+      "2": "Automatische statische Analyse",
+      "3": "Aufdeckung von Anomalien",
+      "4": "Härtungsvorschläge zur Minimierung des Risikos der Ausnutzung von Schwachstellen",
+      "5": "Vollständiger Zugriff auf die Interna der ausführbaren Datei über benutzerdefinierte Skripte",
+      "6": "Verständliche grafische Visualisierungen von strukturellen Interna der ausführbaren Dateien",
+      "7": "Auf maschinellem Lernen basierendes Scoring von Anomalien zur Erkennung von bösartigen Zwecken",
+      "8": "Eingebettete Dokumentation für technische Interna",
+      "9": "Schneller Wissensaustausch und Zusammenarbeit mit der Expertengemeinschaft",
+      "platform.button.text": "Jetzt zur Plattform!"
+    },
+    "vision": {
+      "headline": "Vision: Transparenz in die Cybersicherheit bringen",
+      "statements": {
+        "1": "Den Schleier lüften: Mit Transparenz die Cybersicherheit stärken",
+        "2": "Vereinheitlichung des Fachwissens über Malware-Merkmale und -Analysen, und Förderung einer Gemeinschaft von Experten, um den Wissensaufbau zu beschleunigen",
+        "3": "Ein zentrales All-in-One-Tool",
+        "4": "Schneller Wissensaufbau durch eine Gemeinschaft von Sicherheitsexperten"
+      }
+    },
+    "audience": {
+      "headline": "Zielgruppe",
+      "1": {
+        "target.group": "Nutzen für Malware-Analysten:",
+        "gain": "Schnelle Informationsermittlung"
+      },
+      "2": {
+        "target.group": "Nutzen für Malware-Forensiker:",
+        "gain": "Einfacher Zugriff auf tiefe Details"
+      },
+      "3": {
+        "target.group": "Nutzen für die Anti-Malware-Branche:",
+        "gain": "Benutzerdefinierte Auswertung beliebiger Detailstrukturen in ausführbaren Dateien"
+      },
+      "4": {
+        "target.group": "Nutzen für die Software-Industrie:",
+        "gain": "Härtung der ausführbaren Dateien, um eine mögliche Ausnutzung von Schwachstellen abzuschwächen"
+      },
+      "5": {
+        "target.group": "Nutzen für White Hat Hackers:",
+        "gains": {
+          "1": "Spionageaufdeckung,",
+          "2": "Bewertung unbekannter ausführbarer Dateien"
+        }
+      },
+      "6": {
+        "target.group": "Nutzen für Studenten:",
+        "gains": {
+          "1": "Übersichtliche Darstellung interner Strukturen,",
+          "2": "direkter Zugriff auf Profi-Wissen,",
+          "3": "schnelle Fachgebietserschließung"
+        }
+      },
+      "7": {
+        "target.group": "Nutzen für Software-Nutzer:",
+        "gain": "Automatischer Scan und Bewertung bei Downloads von ausführbaren Dateien via Browser-Plugin"
+      }
+    },
+    "impacts": {
+      "headline": "Was wir machen",
+      "1": "Zentrale Webplattform und Community für die Analyse von ausführbaren Dateiformaten - Alle erforderlichen Tools sind enthalten",
+      "2": "Vollzugriff auf alle internen technischen Strukturen über komfortable Script-Sprachen (JavaScript, TypeScript)",
+      "3": "Zugriff auf interne, möglicherweise versteckte Informationen, die Aussagen über die Bösartigkeit treffen",
+      "4": "Experten tauschen sich gegenseitig aus und lernen voneinander",
+      "5": "Anti-Malware-Branche profitiert von gesammelten Erkenntnissen, um selbst 0‑Day-Bedrohungen zu erkennen",
+      "6": "Nutzung der gesammelten Informationen für Deep Learning",
+      "7": "Software-Industrie nutzt Informationen, um ihre Programme gegen Angriffe zu schützen"
+    },
+    "pricing": {
+      "headline": "Preise",
+      "titles": {
+        "basic": "Basic:",
+        "pro": "Pro:",
+        "planned": "In Planung"
+      },
+      "subscriptions": {
+        "title": "Abonnement",
+        "free": "0 €",
+        "pro": "Kontaktieren Sie uns"
+      },
+      "features": {
+        "1": "Datei-Upload und statische Analyse",
+        "2": "Private Uploads",
+        "3": "Ausführbare Dateien herunterladen",
+        "4": "Ausführbare Dateien bearbeiten",
+        "5": "Erkenntnisse über erkannte Anomalien einsehen",
+        "6": "Ermittelte Härtungsvorschläge einsehen",
+        "7": "Benutzerdefinierte Skripte",
+        "8": "Mehr Kontingent für den API-Zugriff durch benutzerdefinierte Skripte",
+        "9": "KI-gestützte Analyse",
+        "10": "Browser-Plugin zum Scannen von Downloads"
+      }
+    }
+  },
+  "captcha": {
+    "puzzle.text": "Wie lautet die Summe aus {{num1}} und {{num2}}?"
+  },
+  "contact": {
+    "introduction": "Begeben Sie sich mit uns auf eine Reise. Unser Kontaktformular steht bereit und wartet auf Ihre Nachricht. Ob Sie ein visionärer Mitarbeiter oder ein aufstrebender Kunde sind, dies ist Ihre Chance, den Funken der Möglichkeiten zu entzünden. Nehmen Sie noch heute Kontakt mit uns auf und lassen Sie uns die unendlichen Möglichkeiten erkunden, die uns erwarten. Gemeinsam können wir Großartiges erreichen. Beginnen Sie das Gespräch jetzt!",
+    "input.fields": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail-Adresse",
+      "message": "Nachricht",
+      "send.button.text": "Absenden"
+    }
+  },
+  "stakeholders": {
+    "headline": "Interessengruppen und Technologie-Stack",
+    "introduction": "Entdecken Sie die Leistungsfähigkeit unserer hochmodernen Plattform für statische Binäranalysen, die Experten aus den verschiedensten Bereichen mit fortschrittlichen Backend-Modulen grenzenlose Möglichkeiten bietet:",
+    "lifecycle.headline": "Lebenszyklus der Software-Entwicklung",
+    "lifecycle": "Verbessern Sie Ihren Software-Entwicklungsprozess! Integrieren Sie die Plattform nahtlos in Ihren Software-Entwicklungszyklus, ermöglichen Sie Reverse-Engineering-Analysen und kontinuierliche Verbesserungen, um Software-Benutzer vor einer Reihe von Gefahren im digitalen Bereich zu schützen."
+  },
+  "team": {
+    "headline": "Das Team",
+    "introduction": {
+      "1": "Entfesseln Sie die Kraft des Geistes: Treten Sie der Liga der Codeknacker, Verteidiger und Innovatoren bei! Unser zuverlässiges Team erstreckt sich von Nord- bis Süddeutschland (Rostock, Köln und Nürnberg).",
+      "2": "TRANScurity wird von Sicherheitsexperten, Software-Ingenieuren, Unternehmern und Wissenschaftlern entwickelt:"
+    },
+    "members": {
+      "paxi": {
+        "1": "Ursprünglicher Mitbegründer seit der ersten Stunde",
+        "2": "Experte für Backend-Entwicklung und Open-Source-Projekte",
+        "3": "Analyst für PE-Dateien",
+        "4": "Bachelor of Science in Angewandter Informatik, Entwicklungsleitung"
+      },
+      "albi": {
+        "1": "Aufbau des neuronalen Netzwerks für präventive Malware-Identifizierung",
+        "2": "Master in Informatik"
+      },
+      "diddy": {
+        "1": "Breites Technologiewissen",
+        "2": "Experte für Full-Stack-Entwicklung",
+        "3": "Zertifizierter Software-Architekt",
+        "4": "Bachelor of Science in Allgemeiner Informatik"
+      }
+    }
+  }
+}

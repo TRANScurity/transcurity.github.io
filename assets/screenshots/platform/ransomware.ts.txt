@@ -1,0 +1,23 @@
+import PEModel = org.pevalidation.pemodel.PEModel
+const searchedLibs = ['bcrypt.dll', 'wininet.dll'];
+
+(async function() {
+        const model = transcurity.Executables.getPE('76657D402D22005F20F5876244CF3290BF3DBABAF440141816E37566B4EB2D16')
+        let result = ''
+        const importDescriptor = await model.getNtHeaders().getDataDirectory().getImportDescriptor().getImportDescriptors()
+        for (const entry of importDescriptor) {
+            const libName = await entry.getName()
+            if (searchedLibs.indexOf(libName.toLowerCase()) >= 0) {
+                result += `<b>${libName}:</b> `;
+
+                const functions = await entry.getThunkData()
+                for (const functionEntry of functions) {
+                    const functionName = await functionEntry.getImageImportByName().getAsciiName()
+                    result += `${functionName}, `
+                }
+                result += '<p/>'
+            }
+        }
+
+        output(result)
+})()

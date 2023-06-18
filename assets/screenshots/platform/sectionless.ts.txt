@@ -1,0 +1,23 @@
+(async function() {
+        const model = transcurity.Executables.getPE('CFA8BE75E7E6BFED384213C38072A357CDCA76DFC97A8D700A2BEDFA51836CCC')
+        const sectionHeaders = await model.getSectionTable().getImageSectionHeaders()
+        let result = `Number of sections: ${sectionHeaders.length}<br/>`
+
+        const sectionAlignment = await model.getNtHeaders().getImageOptionalHeader().getSectionAlignmentElement().getHex()
+        result += `Start of first section: 0x${sectionAlignment}<br/>`
+
+        const entryPoint = await model.getNtHeaders().getImageOptionalHeader().getAddressOfEntryPointElement().getHex()
+        result += `Address of entry point: 0x${entryPoint}<p/>`
+
+        let offset = 0; let headerLength = await model.getDosHeader().getImageDosHeader().getSize()
+        result += `IMAGE_DOS_HEADER offset: 0x${offset.toString(16)} - 0x${headerLength.toString(16)}<br/>`
+        offset = headerLength; headerLength += await model.getDosStub().getStub().getSize()
+        result += `DOS_STUB offset: 0x${offset.toString(16)} - 0x${headerLength.toString(16)}<br/>`
+        offset = headerLength; headerLength += await model.getNtHeaders().getImageNtHeaders().getSize()
+        result += `IMAGE_NT_HEADERS offset: 0x${offset.toString(16)} - 0x${headerLength.toString(16)}<br/>`
+        offset = headerLength; headerLength += sectionHeaders.length * 40 // sizeof(IMAGE_SECTION_HEADER) == 40
+        result += `IMAGE_SECTION_HEADER offset: 0x${offset.toString(16)} - 0x${headerLength.toString(16)}<br/>`
+        result += `Header size: 0x${headerLength.toString(16)} bytes<br/>`
+
+        output(result)
+})()

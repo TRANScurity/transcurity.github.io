@@ -1,0 +1,35 @@
+const unrevealedOpCodes = ['db', 'dw', 'dd', 'dq', 'ddq'];
+
+(async function() {
+    const disassembly = await transcurity.Executables.disassemble('d8420c251eef150615315643246fbdc06fd209db20a6d604d72afeaaccc3278e', [])
+
+    let imageBase = 0
+    let resultTable = ''
+    const hotspotRowCss = 'style="color: red; font-weight: bolder;"'
+    const cellCss = 'style="padding: 0 0.5em 0 0.5em"'
+    let unknownOpCodes = 0
+    for (let instruction of disassembly) {
+        const instructionJson = JSON.parse(instruction)
+        imageBase = instructionJson.imageBase
+
+        if (unknownOpCodes == 0 || unrevealedOpCodes.indexOf(instructionJson.mnemonic) < 0) {
+            const hotspot = instructionJson.tags.indexOf('ENTRY_POINT') > -1 ||
+                                     instructionJson.tags.indexOf('ANTI_DEBUG') > -1 ||
+                                     instructionJson.tags.indexOf('ANTI_VM') > -1 ||
+                                     instructionJson.tags.indexOf('OBFUSCATION') > -1;
+            resultTable += `<tr ${hotspot ? hotspotRowCss : ''}><td ${cellCss}>${instructionJson.sectionName}</td>`
+            resultTable += `<td ${cellCss}>0x${instructionJson.virtualAddress.toString(16)}</td>`
+            resultTable += `<td ${cellCss}>${instructionJson.rawBytesHex}</td>`
+            resultTable += `<td ${cellCss}>${instructionJson.mnemonic}</td>`
+            resultTable += `<td ${cellCss}>${instructionJson.operands}</td>`
+            resultTable += `<td ${cellCss}>${instructionJson.tags}</td></tr>`
+
+            unknownOpCodes = unrevealedOpCodes.indexOf(instructionJson.mnemonic) >= 0 ? 1 : 0
+        } else if (unknownOpCodes++ < 2) {
+            resultTable += `<tr><td ${cellCss} colspan="6" align="center">. . . . . . . . .</td></tr>`
+        }
+    }
+
+    const result = `<p>ImageBase: 0x${imageBase.toString(16)}</p>`
+    output(`${result}<table>${resultTable}</table>`)
+})()
