@@ -158,24 +158,27 @@
     "headline": "The Team",
     "introduction": {
       "1": "Unleash the Power of Minds: Join the League of Codebreakers, Defenders, and Innovators! Our reliable team based in Northern and Southern Germany (Rostock, Cologne and Nuremberg).",
-      "2": "TRANScurity is built by Security Experts, Software Engineers, Entrepreneurs and Scientists:"
+      "2": "is built by Security Experts, Software Engineers, Entrepreneurs and Scientists:"
     },
     "members": {
       "paxi": {
         "1": "Original co-founder since the very first hour",
         "2": "Expert in back-end development and open-source projects",
         "3": "Analyst for Portable Executable files",
-        "4": "Bachelor of Science in Applied Computer Science, head of programming"
+        "4": "Bachelor of Science in Applied Computer Science",
+        "5": "Head of Programming and Product Development"
       },
       "albi": {
         "1": "Building the neuronal network for preemptive malware identification",
-        "2": "Master in Computer Science"
+        "2": "Master in Computer Science",
+        "3": "Data Scientist"
       },
       "diddy": {
         "1": "Broad technology knowledge",
         "2": "Expert in full-stack development",
         "3": "Certified software architect",
-        "4": "Bachelor of Science in General Computer Science"
+        "4": "Bachelor of Science in General Computer Science",
+        "5": "Consultant"
       }
     }
   }

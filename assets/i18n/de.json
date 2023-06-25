@@ -21,7 +21,7 @@
   },
   "home": {
     "headline": {
-      "slogan": "Vision: “Transparenz in die Cybersicherheit bringen”",
+      "slogan": "Vision: “Transparenz in die Cyber-Sicherheit bringen”",
       "purpose": "Fortgeschrittene Analyse für ausführbare Dateien"
     },
     "topic": {
@@ -32,7 +32,7 @@
         "solution": "Ganzheitliche Reverse Engineering-Expertenplattform für ausführbare Dateiformate"
       },
       "2": {
-        "problem": "Begrenzter technischer Detailzugang zu den Interna ausführbarer Dateien durch die Tools",
+        "problem": "Begrenzter technischer Detailzugang zu den Interna ausführbarer Dateien durch bestehende Tools",
         "solution": "Individualisierbare, leicht zu bedienende Detailanalyse"
       },
       "3": {
@@ -46,17 +46,17 @@
       "2": "Automatische statische Analyse",
       "3": "Aufdeckung von Anomalien",
       "4": "Härtungsvorschläge zur Minimierung des Risikos der Ausnutzung von Schwachstellen",
-      "5": "Vollständiger Zugriff auf die Interna der ausführbaren Datei über benutzerdefinierte Skripte",
+      "5": "Vollständiger Zugriff auf die Interna der ausführbaren Datei via benutzerdefinierten Skripten",
       "6": "Verständliche grafische Visualisierungen von strukturellen Interna der ausführbaren Dateien",
-      "7": "Auf maschinellem Lernen basierendes Scoring von Anomalien zur Erkennung von bösartigen Zwecken",
+      "7": "Auf maschinellem Lernen basierendes Scoring von Anomalien zur Erkennung von bösartigen Intentionen",
       "8": "Eingebettete Dokumentation für technische Interna",
-      "9": "Schneller Wissensaustausch und Zusammenarbeit mit der Expertengemeinschaft",
+      "9": "Schneller Wissensaustausch und Zusammenarbeit mit einer Expertengemeinschaft",
       "platform.button.text": "Jetzt zur Plattform!"
     },
     "vision": {
-      "headline": "Vision: Transparenz in die Cybersicherheit bringen",
+      "headline": "Vision: Transparenz in die Cyber-Sicherheit bringen",
       "statements": {
-        "1": "Den Schleier lüften: Mit Transparenz die Cybersicherheit stärken",
+        "1": "Den Schleier lüften: Mit Transparenz die Cyber-Sicherheit stärken",
         "2": "Vereinheitlichung des Fachwissens über Malware-Merkmale und -Analysen, und Förderung einer Gemeinschaft von Experten, um den Wissensaufbau zu beschleunigen",
         "3": "Ein zentrales All-in-One-Tool",
         "4": "Schneller Wissensaufbau durch eine Gemeinschaft von Sicherheitsexperten"
@@ -73,7 +73,7 @@
         "gain": "Einfacher Zugriff auf tiefe Details"
       },
       "3": {
-        "target.group": "Nutzen für die Anti-Malware-Branche:",
+        "target.group": "Nutzen für die Anti-Malware-Industrie:",
         "gain": "Benutzerdefinierte Auswertung beliebiger Detailstrukturen in ausführbaren Dateien"
       },
       "4": {
@@ -96,15 +96,15 @@
         }
       },
       "7": {
-        "target.group": "Nutzen für Software-Nutzer:",
+        "target.group": "Gewinn für Software-Nutzer:",
         "gain": "Automatischer Scan und Bewertung bei Downloads von ausführbaren Dateien via Browser-Plugin"
       }
     },
     "impacts": {
       "headline": "Was wir machen",
-      "1": "Zentrale Webplattform und Community für die Analyse von ausführbaren Dateiformaten - Alle erforderlichen Tools sind enthalten",
-      "2": "Vollzugriff auf alle internen technischen Strukturen über komfortable Script-Sprachen (JavaScript, TypeScript)",
-      "3": "Zugriff auf interne, möglicherweise versteckte Informationen, die Aussagen über die Bösartigkeit treffen",
+      "1": "Zentrale Web-Plattform und Community für die Analyse von ausführbaren Dateiformaten - Alle erforderlichen Tools sind enthalten",
+      "2": "Vollzugriff auf alle internen technischen Strukturen via komfortabler Script-Sprachen (JavaScript, TypeScript)",
+      "3": "Zugriff auf interne, möglicherweise versteckte Informationen, die Aussagen über bösartige Intentionen treffen",
       "4": "Experten tauschen sich gegenseitig aus und lernen voneinander",
       "5": "Anti-Malware-Branche profitiert von gesammelten Erkenntnissen, um selbst 0‑Day-Bedrohungen zu erkennen",
       "6": "Nutzung der gesammelten Informationen für Deep Learning",
@@ -157,25 +157,28 @@
   "team": {
     "headline": "Das Team",
     "introduction": {
-      "1": "Entfesseln Sie die Kraft des Geistes: Treten Sie der Liga der Codeknacker, Verteidiger und Innovatoren bei! Unser zuverlässiges Team erstreckt sich von Nord- bis Süddeutschland (Rostock, Köln und Nürnberg).",
-      "2": "TRANScurity wird von Sicherheitsexperten, Software-Ingenieuren, Unternehmern und Wissenschaftlern entwickelt:"
+      "1": "Entfesseln Sie die Kraft des Geistes: Treten Sie der Liga der Code-Knacker, Verteidiger und Innovatoren bei! Unser zuverlässiges Team erstreckt sich von Nord- bis Süddeutschland (Rostock, Köln und Nürnberg).",
+      "2": "wird von Sicherheitsexperten, Software-Ingenieuren, Unternehmern und Wissenschaftlern entwickelt:"
     },
     "members": {
       "paxi": {
         "1": "Ursprünglicher Mitbegründer seit der ersten Stunde",
         "2": "Experte für Backend-Entwicklung und Open-Source-Projekte",
         "3": "Analyst für PE-Dateien",
-        "4": "Bachelor of Science in Angewandter Informatik, Entwicklungsleitung"
+        "4": "Bachelor of Science in Angewandter Informatik",
+        "5": "Entwicklungsleitung und Produktentwicklung"
       },
       "albi": {
         "1": "Aufbau des neuronalen Netzwerks für präventive Malware-Identifizierung",
-        "2": "Master in Informatik"
+        "2": "Master in Informatik",
+        "3": "Data Scientist"
       },
       "diddy": {
         "1": "Breites Technologiewissen",
         "2": "Experte für Full-Stack-Entwicklung",
         "3": "Zertifizierter Software-Architekt",
-        "4": "Bachelor of Science in Allgemeiner Informatik"
+        "4": "Bachelor of Science in Allgemeiner Informatik",
+        "5": "Consultant"
       }
     }
   }

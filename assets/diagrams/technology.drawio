@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T09:03:09.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JRYwEL2BnoVDbHz9G_6J" version="21.3.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-25T09:03:26.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="M_BA2IyxmhYAv5mbpw69" version="21.4.0" type="device">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
-    <mxGraphModel dx="2074" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,13 @@
         <mxCell id="6rHMkKPi71kGI9fP-m07-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot; color=&quot;#ffffff&quot;&gt;Security Company&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=8;fontSize=20;align=center;fillColor=#FE9900;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="800" y="40" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6rHMkKPi71kGI9fP-m07-7" value="&lt;font color=&quot;#000040&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Browser Plugin&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="6rHMkKPi71kGI9fP-m07-7" value="&lt;font color=&quot;#000040&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Browser&lt;br&gt;Plugin&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="279.5" y="240" width="115" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="6rHMkKPi71kGI9fP-m07-9" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;Web Platform&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="6rHMkKPi71kGI9fP-m07-9" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;Web&lt;br&gt;Platform&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="482.5" y="240" width="115" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="6rHMkKPi71kGI9fP-m07-11" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp;Private&amp;nbsp; API&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="6rHMkKPi71kGI9fP-m07-11" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#000040&quot;&gt;&lt;b&gt;&amp;nbsp;Private&lt;br&gt;API&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#BFB4A9;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="882.5" y="240" width="115" height="115" as="geometry" />
         </mxCell>
         <mxCell id="6rHMkKPi71kGI9fP-m07-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Web Front End&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#000040;rounded=1;strokeWidth=8;fontColor=#FFFFFF;" parent="1" vertex="1">
